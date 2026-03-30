@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты и оформление - Brakstore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="site-logo">
+                <a href="index.html" style="text-decoration: none; display: block;">
+                    <img src="img/logo.png" alt="Brakstore Logo" style="cursor: pointer;">
+                </a>
+            </div>
+            
+            <div class="site-title-block">
+                <h1>Brakstore</h1>
+                <p class="subtitle">Хорошие игры доступны каждому!</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="contact-card">
+            <h2>Оформление заказа / Поддержка</h2>
+            <div class="info-block">
+            <p><strong>Продавец:</strong> brakora_radke (Рейтинг 5.0)</p>
+            <p><strong>Время ответа:</strong> ~15 минут</p>
+            <p><strong>Контакты:</strong> TELEGRAM: @brakshpak | EMAIL: nehochusvoymail@gmail.com</p>
+        </div>
+
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Ваше имя / Никнейм:</label>
+                    <input type="text" id="name" name="name" placeholder="Например: igel84" required>
+                </div>
+
+                <div>
+                    <label for="email">Ваш Email (для доставки ключа):</label>
+                    <input type="email" id="email" name="email" placeholder="example@mail.ru" required>
+                </div>
+
+                <div>
+                    <label for="product">Интересующий товар:</label>
+                    <select id="product" name="product">
+                        <option value="">Выберите из списка...</option>
+                        <option value="cs2">Прайм-статус CS2</option>
+                        <option value="discord">Discord Nitro Classic</option>
+                        <option value="gamepass">Xbox Game Pass Ultimate</option>
+                        <option value="ea">EA Play (Год)</option>
+                        <option value="other">Другой вопрос</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Текст сообщения / Комментарий:</label>
+                    <textarea id="message" name="message" placeholder="Укажите детали заказа или ваш вопрос..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Отправить заявку</button>
+            </form>
+
+            <div style="text-align: center;">
+                <a href="index.html" class="back-link">← Вернуться в магазин</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-info-bar">
+        <p>Версия сайта 0.1 hehe | Данный сервис только разрабатывается, в дальнейшем планируется развивать его и добавлять больше товаров</p>
+    </div>
+
+</body>
+</html>
