@@ -301,3 +301,13 @@ textarea {
     margin: 0;
     font-style: italic;
 }
+
+.form-message {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 0.95em;
+}
+.form-message p {
+    margin: 5px 0;
+}
